@@ -9,4 +9,9 @@ class Main
     int num2=sc.nextInt();
     Main ob=new Main();
   }
+  public void add(int num1,int num2)
+  {
+    int sum=num1+num2;
+    System.out.println("Sum: " +sum);
+  }
 }
