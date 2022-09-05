@@ -25,5 +25,11 @@ class Main
      int mul=num1*num2;
     System.out.println("Subtraction: "+mul);
   }
+  
+  public int div(int num1,int num2)
+  {
+    int div=num1*num2;
+    System.out.println("Division :"+div);
+  }
     
 }
