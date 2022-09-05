@@ -31,5 +31,9 @@ class Main
     int div=num1*num2;
     System.out.println("Division :"+div);
   }
+  public static void feature(int num1,int num2)
+  {
+    int k=num1-num2/num1;
+    System.out.println(k);
     
 }
