@@ -8,6 +8,7 @@ class Main
     int num1=sc.nextInt();
     int num2=sc.nextInt();
     Main ob=new Main();
+    
   }
   public void add(int num1,int num2)
   {
@@ -19,4 +20,10 @@ class Main
     int sub=num1-num2;
     System.out.println("Subtraction: "+sub);
   }
+  public void mul(int num1,int num2)
+  {
+     int mul=num1*num2;
+    System.out.println("Subtraction: "+mul);
+  }
+    
 }
