@@ -14,4 +14,9 @@ class Main
     int sum=num1+num2;
     System.out.println("Sum: " +sum);
   }
+  public void sub(int num1,int num2)
+  {
+    int sub=num1-num2;
+    System.out.println("Subtraction: "+sub);
+  }
 }
