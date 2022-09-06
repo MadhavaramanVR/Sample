@@ -7,4 +7,8 @@ class Main
   System.out.println("Enter a string ");
   String str=sc.nextLine();
   }
+  void print(String str)
+  {
+    System.out.print(str);
+  }
 }
